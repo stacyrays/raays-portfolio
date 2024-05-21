@@ -1,0 +1,78 @@
+.header-image-work {
+  position: relative;
+  background-image: url(../../../public/hp-background-image-purple.png);
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -200px;
+  background-color: black;
+  height: 230px;
+}
+
+.work-item-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.sub-header-text {
+  text-align: left;
+  color: #6A6A6A;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 30px 10px;
+}
+
+.work-item-container img {
+  border-radius: 12px;
+}
+
+.work-item-left, .work-item-right {
+  margin: 10px;
+}
+
+.work-item-left {
+  width: 40%;
+}
+
+.work-item-right {
+  width: 40%;
+}
+
+.work-header-text {
+  color: #6A6A6A;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px 0;
+  text-align: left;
+}
+
+@media (width <= 768px) {
+  .work-item-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .work-item-left {
+    width: 100%;
+  }
+  .work-item-right {
+    width: 100%;
+  }
+}
+
+@media (width <= 1080px) {
+  .work-item-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .work-item-left {
+    width: 100%;
+  }
+  .work-item-right {
+    width: 100%;
+  }
+}

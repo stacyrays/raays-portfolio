@@ -1,0 +1,38 @@
+
+.header-image-home {
+  position: relative;
+  background-image: url(../../../public/hp-background-image-purple.png);
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -200px;
+  background-color: black;
+}
+
+.laptop {
+  position: absolute;
+  right: 20px;
+  bottom: -90px;
+}
+
+@media (width <= 950px) {
+  .header-image-home {
+    position: relative;
+    background-image: url(../../../public/hp-background-image-purple.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -200px;
+    background-color: black;
+  }
+  .laptop {
+    display: none;
+  }
+}
+
