@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import { Stack } from '@mui/system';
 import Services from '../Services/Services';
 import { theme } from '../NavBar/NavBar';
-import './Work.css';
+import './Work.scss';
 import '../../App.scss';
 
 const Work = () => {
@@ -15,39 +15,44 @@ const Work = () => {
       <div className="sub-header-text">Work: Software Engineering</div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="https://www.verywellmind.com/thmb/39_t3xNP_43YUiUnyRVAtqfckBY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/positive-blonde-middle-aged-woman-psychologist-talking-to-girl-patient-1213531990-745e910347594bf0a0569e7e1b908105.jpg" width="100%" height="auto"/>
+            <img src="/scuba-site.png" width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">Scuba Analytics</div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus mauris, tristique mollis nulla eu, viverra fringilla dolor. Sed venenatis ligula et sem congue, a tempor sem luctus. Aliquam ornare feugiat efficitur.
+              Scuba is a data analytics deep dive took, making it so it's much easier to make complicated queries much faster and formatted in a human friendly way.
             </p>
-            <ThemeProvider theme={theme}>
-              <Stack gap={2} alignItems="flex-start">
-                <Link to="/scuba">
-                  <Button variant="contained" color="purple">
-                    SEE SAMPLES
-                  </Button>
-                </Link>
-              </Stack>
-          </ThemeProvider>
+            <div>
+              <ThemeProvider theme={theme}>
+                  <Link to="https://www.scuba.io/" target='_blank'>
+                    <Button sx={{marginRight: '10px'}} variant="contained" color="purple">
+                      GO TO SCUBA SITE
+                    </Button>
+                  </Link>
+                  <Link to="/work/scuba">
+                    <Button variant="contained" color="purple">
+                      SEE SAMPLES
+                    </Button>
+                  </Link>
+              </ThemeProvider>
+            </div>
           </div>
         </div>
         <div className="sub-header-text">Work: UX and Visual Design</div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="https://www.verywellmind.com/thmb/39_t3xNP_43YUiUnyRVAtqfckBY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/positive-blonde-middle-aged-woman-psychologist-talking-to-girl-patient-1213531990-745e910347594bf0a0569e7e1b908105.jpg" width="100%" height="auto"/>
+          <img src="/labzero-site.png" width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">Lab Zero Innovations</div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus mauris, tristique mollis nulla eu, viverra fringilla dolor. Sed venenatis ligula et sem congue, a tempor sem luctus. Aliquam ornare feugiat efficitur.
+              At Lab Zero, I was a full time designer and prototyper. Lab Zero is a design and development agency located in San Francisco. We worked on design and development projects for many well-known bay area tech companies. Check out the Lab Zero site for more information.
             </p>
             <ThemeProvider theme={theme}>
               <Stack gap={2} alignItems="flex-start">
-                <Link to="/scuba">
+                <Link to="https://labzero.com/" target="_blank">
                   <Button variant="contained" color="purple">
-                    SEE SAMPLES
+                    GO TO LABZERO
                   </Button>
                 </Link>
               </Stack>

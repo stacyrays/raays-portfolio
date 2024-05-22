@@ -2,6 +2,7 @@ import { Routes, Route, Link} from 'react-router-dom';
 import NavBar from './ui/NavBar/NavBar';
 import Home from './ui/Home/Home';
 import Work from './ui/Work/Work';
+import Scuba from './ui/Scuba/Scuba';
 import About from './ui/About/About';
 import Contact from './ui/Contact/Contact';
 
@@ -22,6 +23,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/work/scuba" element={<Scuba />} />
         <Route path="/about" element={<About />} />
         <Route path="/sketches" element={<About />} />
         <Route path="/contact" element={<Contact />} />
