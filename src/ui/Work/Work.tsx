@@ -3,16 +3,17 @@ import { ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import { Stack } from '@mui/system';
 import Services from '../Services/Services';
-import { theme } from '../NavBar/NavBar';
+import {theme, buttonStyles} from '../NavBar/NavBar';
 import './Work.scss';
 import '../../App.scss';
 
 const Work = () => {
+  console.log('buttonStyles', buttonStyles)
   return (
     <>
       <div className="header-image-work" />
       <div className="content-container">
-      <div className="sub-header-text">Work: Software Engineering</div>
+      <div className="sub-header-text">Software Engineering</div>
         <div className="work-item-container">
           <div className="work-item-left">
             <img src="/scuba-site.png" width="100%" height="auto"/>
@@ -25,20 +26,20 @@ const Work = () => {
             <div>
               <ThemeProvider theme={theme}>
                   <Link to="https://www.scuba.io/" target='_blank'>
-                    <Button sx={{marginRight: '10px'}} variant="contained" color="purple">
-                      GO TO SCUBA SITE
+                    <Button variant="contained" color="purple" sx={{...buttonStyles, marginRight: '10px'}}>
+                      GO TO SCUBA
                     </Button>
                   </Link>
                   <Link to="/work/scuba">
-                    <Button variant="contained" color="purple">
-                      SEE SAMPLES
+                    <Button variant="contained" color="purple" sx={buttonStyles}>
+                      SEE CODE EXAMPLES
                     </Button>
                   </Link>
               </ThemeProvider>
             </div>
           </div>
         </div>
-        <div className="sub-header-text">Work: UX and Visual Design</div>
+        <div className="sub-header-text">UX and Visual Design</div>
         <div className="work-item-container">
           <div className="work-item-left">
           <img src="/labzero-site.png" width="100%" height="auto"/>
@@ -51,7 +52,7 @@ const Work = () => {
             <ThemeProvider theme={theme}>
               <Stack gap={2} alignItems="flex-start">
                 <Link to="https://labzero.com/" target="_blank">
-                  <Button variant="contained" color="purple">
+                  <Button variant="contained" color="purple" sx={buttonStyles}>
                     GO TO LABZERO
                   </Button>
                 </Link>

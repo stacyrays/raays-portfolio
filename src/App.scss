@@ -1,6 +1,7 @@
 .app {
   text-align: left;
-  font-family: "Inter", sans-serif;
+  // font-family: "Inter", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
@@ -8,7 +9,8 @@
     "slnt" 0;
   text-align: center;
   width: 100%;
-  background-color: #fff;
+  background-color: #000;
+  color: #fff;
   overflow: hidden;
 }
 
@@ -32,6 +34,7 @@
 }
 
 .app-logo {
+  font-family: "Roboto Mono", monospace;
   height: 40vmin;
   pointer-events: none;
   text-align: left;

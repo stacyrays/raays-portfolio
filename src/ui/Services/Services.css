@@ -31,13 +31,15 @@
   background-color: transparent;
   padding: 30px;
   color: #fff;
-  border-radius: 8px;
+  transition: transform 0.2s;
+  cursor: pointer;
 }
 
 .service-panel-item:hover {
   color: #fff;
   background: rgba(0, 0, 0, .1);
   cursor: pointer;
+  transform: scale(1.05);
 }
 
 .service-panel-icon {

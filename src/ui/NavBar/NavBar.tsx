@@ -67,6 +67,12 @@ export const theme = createTheme({
   },
 });
 
+export const buttonStyles = {
+  color: '#fff', 
+  textTransform: 'lowercase',
+  borderRadius: '0px',
+}
+
 const NavBar = () => {
   const [open, setOpen] = useState(false);
 
@@ -95,10 +101,10 @@ const NavBar = () => {
         <>
           <ThemeProvider theme={theme}>
             <Stack spacing={2} direction="row">
-              <Link to="/work"><Button variant="text" sx={{color: '#fff'}}>Work</Button></Link>
-              <Link to="/about"><Button variant="text" sx={{color: '#fff'}}>About</Button></Link>
-              <Link to="/sketches"><Button variant="text" sx={{color: '#fff'}}>Sketches</Button></Link>
-              <Link to="/contact"><Button variant="text" sx={{color: '#fff'}}>Contact Us</Button></Link>
+              <Link to="/work"><Button variant="text" sx={buttonStyles}>Work</Button></Link>
+              <Link to="/about"><Button variant="text" sx={buttonStyles}>About</Button></Link>
+              <Link to="/sketches"><Button variant="text" sx={buttonStyles}>Sketches</Button></Link>
+              <Link to="/contact"><Button variant="text" sx={buttonStyles}>Contact Us</Button></Link>
             </Stack>
           </ThemeProvider>
         </>

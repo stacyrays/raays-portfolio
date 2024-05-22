@@ -26,10 +26,6 @@
   margin: 30px 10px;
 }
 
-.work-item-container img {
-  border-radius: 12px;
-}
-
 .work-item-left, .work-item-right {
   margin: 10px;
 }
@@ -38,13 +34,24 @@
   margin-top: 30px;
 }
 
-.work-item-left {
-  width: 50%;
-}
 
 .work-item-right {
   width: 40%;
 }
+
+.work-item-left {
+    width: 50%;
+    margin-right: 30px;
+    transition: transform 0.2s;
+    height: auto;
+    cursor: pointer;
+}
+
+.work-item-left:hover {
+  transform: scale(1.05);
+}
+
+
 
 .work-header-text {
   color: #6A6A6A;

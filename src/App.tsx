@@ -5,7 +5,6 @@ import Work from './ui/Work/Work';
 import Scuba from './ui/Scuba/Scuba';
 import About from './ui/About/About';
 import Contact from './ui/Contact/Contact';
-
 import './App.scss';
 
 const App = () => {
@@ -14,8 +13,8 @@ const App = () => {
       <header className="app-header">
         <Link to="/">
           <div className="app-logo">
-            <div className="raays">RAAYS</div>
-            <div className="description">Software Engineer and Designer</div>
+            <div className="raays">raays</div>
+            <div className="description">software engineer and ui designer</div>
           </div>
         </Link>
         <NavBar />
