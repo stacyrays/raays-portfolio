@@ -30,7 +30,7 @@ const Work = () => {
                       GO TO SCUBA
                     </Button>
                   </Link>
-                  <Link to="/work/scuba">
+                  <Link to="/projects/scuba">
                     <Button variant="contained" color="purple" sx={buttonStyles}>
                       SEE CODE EXAMPLES
                     </Button>
@@ -39,7 +39,27 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <div className="sub-header-text">UX and Visual Design</div>
+        <div className="work-item-container">
+          <div className="work-item-left">
+            <img src="https://stacyrays.github.io/portfolio/images/projects/concert-software.png" width="100%" height="auto"/>
+          </div>
+          <div className="work-item-right">
+            <div className="work-header-text">Live Streaming Concert App</div>
+            <p>
+             This live streaming video concert app was a consultant frontend project I contributed on. My main focus was developing the admin UI and the components used during a live event. I worked on a team of frontend and backend developers. 
+            </p>
+            <div>
+              <ThemeProvider theme={theme}>
+                  <Link to="/projects/streaming-app">
+                    <Button variant="contained" color="purple" sx={buttonStyles}>
+                      SEE CODE EXAMPLES
+                    </Button>
+                  </Link>
+              </ThemeProvider>
+            </div>
+          </div>
+        </div>
+        <div className="sub-header-text">Design and Prototyping</div>
         <div className="work-item-container">
           <div className="work-item-left">
           <img src="/labzero-site.png" width="100%" height="auto"/>

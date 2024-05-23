@@ -17,7 +17,7 @@ const Home = () => {
           <h1>modern React coding and design methods</h1>
           <ThemeProvider theme={theme}>
             <Stack gap={2} alignItems="flex-start">
-              <Link to="/work">
+              <Link to="/projects">
                 <Button sx={buttonStyles} variant="contained" color="purple">
                   SEE WORK
                 </Button>

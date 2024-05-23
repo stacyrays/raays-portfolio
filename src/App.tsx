@@ -3,6 +3,7 @@ import NavBar from './ui/NavBar/NavBar';
 import Home from './ui/Home/Home';
 import Projects from './ui/Projects/Projects';
 import Scuba from './ui/Scuba/Scuba';
+import StreamingApp from './ui/StreamingApp/StreamingApp';
 import About from './ui/About/About';
 import Contact from './ui/Contact/Contact';
 import './App.scss';
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/scuba" element={<Scuba />} />
+        <Route path="/projects/streaming-app" element={<StreamingApp />} />
         <Route path="/about" element={<About />} />
         <Route path="/sketches" element={<About />} />
         <Route path="/contact" element={<Contact />} />
