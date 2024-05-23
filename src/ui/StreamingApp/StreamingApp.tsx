@@ -16,7 +16,7 @@ const StreamingApp = () => {
       <div className="sub-header-text">Video Streaming App: Frontend Software Engineer</div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="/react-video-streaming.png" width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/react-video-streaming.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">React</div>
@@ -27,7 +27,7 @@ const StreamingApp = () => {
         </div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="/apollo.png" width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/apollo.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">Apollo + GraphQL</div>
@@ -38,7 +38,7 @@ const StreamingApp = () => {
         </div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="/react-testing.png" width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/react-testing.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">React Testing Library</div>

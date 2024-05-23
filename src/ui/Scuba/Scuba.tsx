@@ -16,7 +16,7 @@ const Scuba = () => {
       <div className="sub-header-text">Scuba Analytics: Frontend Software Engineer</div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="/react-typescript.png" width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/react-typescript.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">React + Typescript</div>
@@ -27,7 +27,7 @@ const Scuba = () => {
         </div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="/redux.png" width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/redux.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">Redux & Async Thunks</div>
@@ -38,7 +38,7 @@ const Scuba = () => {
         </div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="/jest-tests.png" width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/jest-tests.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">Jest + Enzyme Tests</div>

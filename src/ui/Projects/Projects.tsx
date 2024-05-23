@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="sub-header-text">Software Engineering</div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="/scuba-site.png" width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + '/scuba-site.png'} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">Scuba Analytics</div>
@@ -62,7 +62,7 @@ const Projects = () => {
         <div className="sub-header-text">Design and Prototyping</div>
         <div className="work-item-container">
           <div className="work-item-left">
-          <img src="/labzero-site.png" width="100%" height="auto"/>
+          <img src={process.env.PUBLIC_URL + '/labzero-site.png'} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">Lab Zero Innovations</div>

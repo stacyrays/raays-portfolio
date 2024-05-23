@@ -16,7 +16,7 @@ const About = () => {
       <div className="sub-header-text">About Stace Raays</div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src="/me-woods.png" width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/me-woods.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">
@@ -76,7 +76,7 @@ const About = () => {
             </p>
           </div>
           <div className="work-item-left">
-            <img src="/me-snoopy.png" width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/me-snoopy.png"} width="100%" height="auto"/>
           </div>
         </div>
         </div>
