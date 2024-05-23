@@ -48,10 +48,17 @@ const ServiceItem = (props: Props) => {
       title.charAt(0).toUpperCase() + title.slice(1)
     );
   };
+
+  const goToLink = () => {
+    if (serviceType === 'code' || serviceType === 'design') {
+      return '/projects';
+    }
+    return '/sketches';
+  }
   
   return (
     <>
-      <Link className="service-link" to={`/${serviceType}`}>
+      <Link className="service-link" to={goToLink()}>
         <div id={serviceType} className='service-panel-item'
           onMouseEnter={() => setServiceHovered(true)}
           onMouseLeave={() => setServiceHovered(false)}
