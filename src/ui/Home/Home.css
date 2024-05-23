@@ -18,7 +18,7 @@
   bottom: -90px;
 }
 
-@media (width <= 950px) {
+@media (width <= 980px) {
   .header-image-home {
     position: relative;
     background-image: url(../../../public/hp-background-image-purple.png);

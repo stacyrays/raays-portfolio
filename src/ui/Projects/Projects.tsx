@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import { Stack } from '@mui/system';
 import Services from '../Services/Services';
 import {theme, buttonStyles} from '../NavBar/NavBar';
-import './Work.scss';
+import './Projects.scss';
 import '../../App.scss';
 
 const Work = () => {

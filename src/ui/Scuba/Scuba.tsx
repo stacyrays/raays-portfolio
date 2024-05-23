@@ -5,7 +5,7 @@ import { Stack } from '@mui/system';
 import Services from '../Services/Services';
 import { theme } from '../NavBar/NavBar';
 import './Scuba.scss';
-import '../Work/Work.scss';
+import '../Projects/Projects.scss';
 import '../../App.scss';
 
 const Scuba = () => {

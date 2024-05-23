@@ -101,7 +101,7 @@ const NavBar = () => {
         <>
           <ThemeProvider theme={theme}>
             <Stack spacing={2} direction="row">
-              <Link to="/work"><Button variant="text" sx={buttonStyles}>Work</Button></Link>
+              <Link to="/projects"><Button variant="text" sx={buttonStyles}>Projects</Button></Link>
               <Link to="/about"><Button variant="text" sx={buttonStyles}>About</Button></Link>
               <Link to="/sketches"><Button variant="text" sx={buttonStyles}>Sketches</Button></Link>
               <Link to="/contact"><Button variant="text" sx={buttonStyles}>Contact Us</Button></Link>
@@ -125,7 +125,7 @@ const NavBar = () => {
           onClose={handleClose}
           TransitionComponent={Transition}
         >
-          <AppBar sx={{ position: 'relative' }}>
+          <AppBar sx={{ position: 'relative', backgroundColor: 'transparent', boxShadow: '0'}}>
             <Toolbar>
               <IconButton
                 edge="start"
@@ -133,7 +133,7 @@ const NavBar = () => {
                 onClick={handleClose}
                 aria-label="close"
               >
-                <CloseIcon />
+                <CloseIcon sx={{color: '#7305FE'}} />
               </IconButton>
               {/* <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
                 Menu
@@ -143,10 +143,10 @@ const NavBar = () => {
           <div style={{margin: '20px'}}>
             <ThemeProvider theme={theme}>
               <Stack spacing={2} direction="column">
-                <Link to="/work"><Button color="purple" variant="text" onClick={handleClose}>Work</Button></Link>
-                <Link to="/about"><Button color="purple" variant="text" onClick={handleClose}>About</Button></Link>
-                <Link to="/team"><Button color="purple" variant="text" onClick={handleClose}>Meet the Team</Button></Link>
-                <Link to="/contact"><Button color="purple" variant="text" onClick={handleClose}>Contact Us</Button></Link>
+                <Link to="/projects"><Button color="purple" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Projects</Button></Link>
+                <Link to="/about"><Button color="purple" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>About</Button></Link>
+                <Link to="/team"><Button color="purple" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Meet the Team</Button></Link>
+                <Link to="/contact"><Button color="purple" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Contact Us</Button></Link>
               </Stack>
             </ThemeProvider>
           </div>

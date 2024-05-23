@@ -1,7 +1,7 @@
 import { Routes, Route, Link} from 'react-router-dom';
 import NavBar from './ui/NavBar/NavBar';
 import Home from './ui/Home/Home';
-import Work from './ui/Work/Work';
+import Projects from './ui/Projects/Projects';
 import Scuba from './ui/Scuba/Scuba';
 import About from './ui/About/About';
 import Contact from './ui/Contact/Contact';
@@ -14,15 +14,15 @@ const App = () => {
         <Link to="/">
           <div className="app-logo">
             <div className="raays">raays</div>
-            <div className="description">software engineer and ui designer</div>
+            <div className="description">software engineer and ui design</div>
           </div>
         </Link>
         <NavBar />
       </header>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/work/scuba" element={<Scuba />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/scuba" element={<Scuba />} />
         <Route path="/about" element={<About />} />
         <Route path="/sketches" element={<About />} />
         <Route path="/contact" element={<Contact />} />
