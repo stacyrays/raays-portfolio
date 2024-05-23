@@ -7,7 +7,7 @@ import {theme, buttonStyles} from '../NavBar/NavBar';
 import './Projects.scss';
 import '../../App.scss';
 
-const Work = () => {
+const Projects = () => {
   console.log('buttonStyles', buttonStyles)
   return (
     <>
@@ -87,4 +87,4 @@ const Work = () => {
   );
 }
 
-export default Work;
+export default Projects;

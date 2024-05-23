@@ -3,41 +3,69 @@ import { ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import { Stack } from '@mui/system';
 import Services from '../Services/Services';
-import { theme } from '../NavBar/NavBar';
-import './About.css';
+import {theme, buttonStyles} from '../NavBar/NavBar';
+import './About.scss';
 import '../../App.scss';
 
 const About = () => {
+  console.log('buttonStyles', buttonStyles)
   return (
     <>
-      <div className="header-image-home">
-        <div className="header-text">
-          <h1>Meet our team of <span className="header-text-italic">certified</span> specialists</h1>
-          <ThemeProvider theme={theme}>
-            <Stack gap={2} alignItems="center">
-              <Link to="/helps">
-                <Button variant="contained" color="orange">
-                  How It Helps
-                </Button>
-              </Link>
-            </Stack>
-          </ThemeProvider>
-        </div>
-      </div>
+      <div className="header-image-work" />
       <div className="content-container">
-        <div className="content-main">
-          <div className="content-main-left">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus mauris, tristique mollis nulla eu, viverra fringilla dolor. Sed venenatis ligula et sem congue, a tempor sem luctus. Aliquam ornare feugiat efficitur. Nunc in tempor metus. Ut varius eu felis vel ullamcorper. Integer et pharetra purus. Maecenas a tortor ligula. Phasellus finibus est eu vehicula suscipit. Nulla congue eleifend ante, sed ultrices justo consequat vel. Duis interdum nec orci a fermentum. In hac habitasse platea dictumst. Integer a purus cursus, congue erat at, maximus augue. Donec euismod tincidunt lorem, quis rhoncus est ultricies quis. Sed sollicitudin sodales augue ac pharetra. 
-            </p>
+      <div className="sub-header-text">About Stace Raays</div>
+        <div className="work-item-container">
+          <div className="work-item-left">
+            <img src="/scuba-site.png" width="100%" height="auto"/>
           </div>
-          <div className="content-main-right">
+          <div className="work-item-right">
+            <div className="work-header-text">
+                Career
+            </div>
+            <ul>
+              <li>UX designer &amp; web developer</li>
+              <li>17 years experience</li>
+            </ul>
+            <div className="work-header-text">
+                Education
+            </div>
+            <ul>
+              <li>
+                <strong><Link to="https://www.iupui.edu/" target="_blank">Indiana University &amp; Purdue University</Link></strong>
+                <ul>
+                  <li>Web design &amp; computer science</li>
+                  <li>Bachelor degree</li>
+                  <li>Graduated 2009</li>
+                </ul>
+              </li>
+              <li>
+                <strong><Link to="https://teamtreehouse.com/techdegree/full-stack-javascript" target="_blank">Javascript Full Stack Bootcamp - Treehouse</Link></strong>
+                  <ul>
+                    <li>
+                      Completed and earned my <Link to="https://www.credential.net/5cfcf6de-9141-4e3f-b239-fdc9080b50dc#gs.c7dblx" target="_blank">Certificate</Link>
+                    </li>
+                    <li>Program focused on React, Node, Express, Sequelize, mysql, REST APIs, public API requests, Pug templating and Ruby on Rails</li>
+                  </ul>
+              </li>
+            </ul>
+            <div className="work-header-text">
+                Location
+            </div>
+            <ul>
+              <li>San Francisco, CA</li>
+            </ul>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus mauris, tristique mollis nulla eu, viverra fringilla dolor. Sed venenatis ligula et sem congue, a tempor sem luctus. Aliquam ornare feugiat efficitur. Nunc in tempor metus. Ut varius eu felis vel ullamcorper. Integer et pharetra purus. Maecenas a tortor ligula. Phasellus finibus est eu vehicula suscipit. Nulla congue eleifend ante, sed ultrices justo consequat vel. Duis interdum nec orci a fermentum. In hac habitasse platea dictumst. Integer a purus cursus, congue erat at, maximus augue. Donec euismod tincidunt lorem, quis rhoncus est ultricies quis. Sed sollicitudin sodales augue ac pharetra. 
+              I am a UX designer and developer in San Francisco, currently doing consulting and freelance projects. My previous full time position was with Lab Zero. The clients there are large, house-hold name companies.
+            </p>
+            <p>
+              My undergraduate degree is in design and computer science (Purdue University). To brush up on the latest technologies and to get more experience in the latest Javascript technologies I have attended and completed a fullstack javascript bootcamp for software engineering at Treehouse.
+            </p>
+            <p>
+              When I'm not coding or designing, I love to take my dog on hikes around the bay area, see the latest sci-fi movies, play guitar, and practice yoga.
             </p>
           </div>
         </div>
-      </div>
+        </div>
       <Services />
 
     </>

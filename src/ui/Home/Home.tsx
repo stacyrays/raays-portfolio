@@ -19,7 +19,7 @@ const Home = () => {
             <Stack gap={2} alignItems="flex-start">
               <Link to="/projects">
                 <Button sx={buttonStyles} variant="contained" color="purple">
-                  SEE WORK
+                  go to projects
                 </Button>
               </Link>
             </Stack>
