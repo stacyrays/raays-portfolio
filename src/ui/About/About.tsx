@@ -13,12 +13,34 @@ const About = () => {
     <>
       <div className="header-image-work" />
       <div className="content-container">
-      <div className="sub-header-text">About Stace Raays</div>
+        <div className="sub-header-text">About Stace Raays</div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src={process.env.PUBLIC_URL + "/me-woods.png"} width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/me-ballena.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
+            <div className="work-header-text">
+                  Bio
+              </div>
+              <p>
+                Hi I'm Stace (Raays), I am a software engineer and ui designer in the San Francisco bay area, currently doing consulting development and design projects. My most recent full time position was with Scuba Analytics as a Frontend Software Engineer. I was with Scuba for 3 years. Unfortunately, there was a company wide layoff in May 2024, where half the company, including myself and many amazing engineers, were affected.
+              </p>
+              <p>
+                My undergraduate degree is in computer science and design. In addition to that, a few years ago, I brushed up on the latest full stack technologies by completing a fullstack bootcamp for software engineering at Treehouse.
+              </p>
+              <p>
+                When I'm not coding or designing, I love to hike around the bay area, see the latest sci-fi movies, play guitar, and practice yoga. And I love Peanuts as you can see in the pic below :)
+              </p>
+            </div>
+          </div>
+        <div className="work-item-container">
+          <div className="work-item-left">
+            <div className="work-header-text">
+                Location
+            </div>
+            <ul>
+              <li>San Francisco, CA</li>
+            </ul>
             <div className="work-header-text">
                 Career
             </div>
@@ -53,35 +75,12 @@ const About = () => {
               </li>
             </ul>
           </div>
-        </div>
-      <div className="work-item-container">
           <div className="work-item-right">
-            <div className="work-header-text">
-                Location
-            </div>
-            <ul>
-              <li>San Francisco, CA</li>
-            </ul>
-            <div className="work-header-text">
-                Bio
-            </div>
-            <p>
-              I am a software engineer and ui designer in San Francisco, currently doing consulting projects. My most recent full time position was with Scuba Analytics as a Frontend Software Engineer. I was with Scuba for 3 years. Unfortunately, there was a company wide layoff in May 2024, where half the company, including myself and many amazing engineers, were affected.
-            </p>
-            <p>
-              My undergraduate degree is in computer science and design. In addition to that, a few years ago, I brushed up on the latest full stack technologies by completing a fullstack bootcamp for software engineering at Treehouse.
-            </p>
-            <p>
-              When I'm not coding or designing, I love to hike around the bay area, see the latest sci-fi movies, play guitar, and practice yoga. And I love Peanuts as you can see in the pic :)
-            </p>
-          </div>
-          <div className="work-item-left">
             <img src={process.env.PUBLIC_URL + "/me-snoopy.png"} width="100%" height="auto"/>
           </div>
         </div>
-        </div>
+      </div>
       <Services />
-
     </>
   );
 }
