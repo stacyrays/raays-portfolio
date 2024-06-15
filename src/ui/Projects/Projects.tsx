@@ -119,7 +119,7 @@ const Projects = () => {
           <div className="work-item-right">
             <div className="work-header-text">Angelic Cleaning Site</div>
             <p>
-             Angelic Cleaning was a small business contract design project I helped out with. This one was mainly visual and ux edits to their exisiting logo and site. I updated their logo, colors, fonts and images. Also helped organize the content and pages for the site.
+             Angelic Cleaning was a small business contract design project. This one was mainly visual and ux updates to their exisiting logo and site. I updated their logo, colors, fonts and images. And provided guidance for their content and organization of their site.
             </p>
             <p>
               <strong>Technologies:</strong> Figma, html/css
