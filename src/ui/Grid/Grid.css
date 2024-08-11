@@ -1,0 +1,95 @@
+.grid-sub-header-text {
+  color: #6A6A6A;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.grid-panel-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-link {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-panel-item {
+  flex: calc((100% - 2rem) / 2);
+  box-sizing: border-box; 
+  margin: 40px 20px;
+  background-color: transparent;
+  padding: 30px;
+  color: #fff;
+  transition: transform 0.2s;
+  cursor: pointer;
+  max-width: 700px;
+}
+
+.grid-image {
+  height: 500px;
+  width: 700px;
+  overflow: hidden;
+  object-position: center;
+}
+
+.grid-panel-item:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, .1);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.grid-panel-icon {
+  color:#fff;
+  height: 50px; 
+  width: 50px;
+}
+
+.grid-panel-icon-hovered {
+  color:#fff;
+}
+
+.grid-text {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 24px 0 12px 0;
+}
+
+.grid-button {
+  background-color: #fff;
+  color:#0285FF;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.grid-button-hovered {
+  background-color: #fff;
+  color:#0285FF;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.grid-body-text {
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+@media (width <= 760px) {
+  .grid-image {
+    height: 250px;
+    width: 400px;
+    overflow: hidden;
+    object-position: center;
+  }
+}

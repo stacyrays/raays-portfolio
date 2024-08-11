@@ -8,12 +8,11 @@ import './Projects.scss';
 import '../../App.scss';
 
 const Projects = () => {
-  console.log('buttonStyles', buttonStyles)
   return (
     <>
       <div className="header-image-work" />
       <div className="content-container">
-      <div className="sub-header-text">Software Engineering</div>
+      <div className="sub-header-text">Software Engineering + UI Design</div>
         <div className="work-item-container">
           <div className="work-item-left">
             <img src={process.env.PUBLIC_URL + '/scuba-site.png'} width="100%" height="auto"/>

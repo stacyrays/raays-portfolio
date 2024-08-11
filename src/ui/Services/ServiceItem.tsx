@@ -53,7 +53,7 @@ const ServiceItem = (props: Props) => {
     if (serviceType === 'code' || serviceType === 'design') {
       return '/projects';
     }
-    return '/sketches';
+    return '/api-connections';
   }
   
   return (

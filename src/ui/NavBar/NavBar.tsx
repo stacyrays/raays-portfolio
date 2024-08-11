@@ -103,8 +103,8 @@ const NavBar = () => {
             <Stack spacing={2} direction="row">
               <Link to="/projects"><Button variant="text" sx={buttonStyles}>Projects</Button></Link>
               <Link to="/about"><Button variant="text" sx={buttonStyles}>About</Button></Link>
-              <Link to="/sketches"><Button variant="text" sx={buttonStyles}>Sketches</Button></Link>
-              <Link to="/contact"><Button variant="text" sx={buttonStyles}>Contact Us</Button></Link>
+              <Link to="/api-connections"><Button variant="text" sx={buttonStyles}>api fun</Button></Link>
+              <Link to="/contact"><Button variant="text" sx={buttonStyles}>Contact</Button></Link>
             </Stack>
           </ThemeProvider>
         </>
