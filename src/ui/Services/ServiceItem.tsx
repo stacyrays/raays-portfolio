@@ -1,11 +1,8 @@
 import {useState} from 'react';
 import {Link} from "react-router-dom";
-import SpatialAudioIcon from '@mui/icons-material/SpatialAudio';
-import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
-import EmailIcon from '@mui/icons-material/Email';
 import { CodeIcon } from '../icons/CodeIcon';
 import { DesignIcon } from '../icons/DesignIcon';
-import { SketchIcon } from '../icons/SketchIcon';
+import { ApiIcon } from '../icons/ApiIcon';
 import './Services.css';
 
 type Props = {
@@ -39,14 +36,8 @@ const ServiceItem = (props: Props) => {
       );
     } 
     return (
-      <SketchIcon />
+      <ApiIcon />
     ); 
-  };
-
-  const serviceTypeCapitalized = () => {
-    return (
-      title.charAt(0).toUpperCase() + title.slice(1)
-    );
   };
 
   const goToLink = () => {
@@ -65,7 +56,7 @@ const ServiceItem = (props: Props) => {
           onClick={() => handleClickService()}
         >
           {serviceIcon()}
-          <div id={serviceType} className="service-text">{serviceTypeCapitalized()}</div>
+          <div id={serviceType} className="service-text">{title}</div>
           <div id={serviceType} className="service-body-text">{serviceBodyText ? serviceBodyText : ''}</div>
           {/* <div id={serviceType} className={isServiceHovered ? 'service-button-hovered' : 'service-button'}>{buttonText}</div> */}
         </div>

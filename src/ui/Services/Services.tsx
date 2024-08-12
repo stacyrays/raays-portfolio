@@ -6,19 +6,19 @@ const Services = () => {
   const serviceItems = [
     {
       serviceType: "code",
-      title: 'Software Engineering',
+      title: 'software engineering',
       serviceBodyText: "~6 years experience and proficiency in React, typescript, and redux",
       buttonText: "See Engineering",
     },
     {
       serviceType: "design",
-      title: 'UX and Visual Design',
+      title: "ux and visual design",
       serviceBodyText: "~17 years experience",
       buttonText: "See Designs",
     },
     {
       serviceType: "sketch",
-      title: 'API Fun',
+      title: 'api fun',
       serviceBodyText: "Showcasing some public APIs",
       buttonText: "See APIs",
     },

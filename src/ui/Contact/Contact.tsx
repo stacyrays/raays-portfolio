@@ -1,9 +1,4 @@
-import {Link} from "react-router-dom";
-import { ThemeProvider } from '@mui/material/styles';
-import Button from '@mui/material/Button';
-import { Stack } from '@mui/system';
 import Services from '../Services/Services';
-import {theme, buttonStyles} from '../NavBar/NavBar';
 import './Contact.scss';
 import '../../App.scss';
 
@@ -12,7 +7,7 @@ const Contact = () => {
     <>
       <div className="header-image-work" />
       <div className="content-container">
-      <div className="sub-header-text">Contact Stace Raays</div>
+      <div className="sub-header-text">contact raays</div>
         <div className="work-item-container">
           <div className="work-item-left">
             <img src={process.env.PUBLIC_URL + '/me-ballena.png'} width="100%" height="auto"/>

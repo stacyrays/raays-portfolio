@@ -38,9 +38,9 @@
   height: 40vmin;
   pointer-events: none;
   text-align: left;
-  color: #fff;
+  color: #25B6CA;
   .raays {
-    font-weight: 100;
+    font-weight: 600;
     font-size: 45px;
   }
 }
@@ -52,7 +52,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 460px;
 }
 
 .header-text-italic {
@@ -91,7 +91,6 @@
 @media (width <= 980px) {
   .header-text {
     margin: 250px 0 0 40px;
-    width: 450px;
   }
 
   .app-header {

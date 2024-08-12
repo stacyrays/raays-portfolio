@@ -12,7 +12,7 @@ const Projects = () => {
     <>
       <div className="header-image-work" />
       <div className="content-container">
-      <div className="sub-header-text">Software Engineering + UI Design</div>
+      <div className="sub-header-text">software engineering + ui design</div>
         <div className="work-item-container">
           <div className="work-item-left">
             <img src={process.env.PUBLIC_URL + '/scuba-site.png'} width="100%" height="auto"/>
@@ -28,12 +28,12 @@ const Projects = () => {
             <div>
               <ThemeProvider theme={theme}>
                   <Link to="https://www.scuba.io/" target='_blank'>
-                    <Button variant="contained" color="purple" sx={{...buttonStyles, marginRight: '10px'}}>
+                    <Button variant="contained" color="blue" sx={{...buttonStyles, marginRight: '10px'}}>
                       GO TO SCUBA
                     </Button>
                   </Link>
                   <Link to="/projects/scuba">
-                    <Button variant="contained" color="purple" sx={buttonStyles}>
+                    <Button variant="contained" color="blue" sx={buttonStyles}>
                       SEE CODE EXAMPLES
                     </Button>
                   </Link>
@@ -56,7 +56,7 @@ const Projects = () => {
             <div>
               <ThemeProvider theme={theme}>
                   <Link to="/projects/streaming-app">
-                    <Button variant="contained" color="purple" sx={buttonStyles}>
+                    <Button variant="contained" color="blue" sx={buttonStyles}>
                       SEE CODE EXAMPLES
                     </Button>
                   </Link>
@@ -79,7 +79,7 @@ const Projects = () => {
             <div>
               <ThemeProvider theme={theme}>
                   <Link to="/">
-                    <Button variant="contained" color="purple" sx={buttonStyles}>
+                    <Button variant="contained" color="blue" sx={buttonStyles}>
                       COMING SOON
                     </Button>
                   </Link>
@@ -103,7 +103,7 @@ const Projects = () => {
             <ThemeProvider theme={theme}>
               <Stack gap={2} alignItems="flex-start">
                 <Link to="https://labzero.com/" target="_blank">
-                  <Button variant="contained" color="purple" sx={buttonStyles}>
+                  <Button variant="contained" color="blue" sx={buttonStyles}>
                     GO TO LABZERO
                   </Button>
                 </Link>
@@ -126,7 +126,7 @@ const Projects = () => {
             <div>
               <ThemeProvider theme={theme}>
                   <Link to="https://www.angelicclean.com/">
-                    <Button variant="contained" color="purple" sx={buttonStyles}>
+                    <Button variant="contained" color="blue" sx={buttonStyles}>
                       go to site
                     </Button>
                   </Link>

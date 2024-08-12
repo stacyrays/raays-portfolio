@@ -1,7 +1,6 @@
-
 .header-image-home {
   position: relative;
-  background-image: url(../../../public/hp-background-image-purple.png);
+  background-image: url(../../../public/img_home_1920x1080.jpg);
   background-repeat: no-repeat;
   height: 800px;
   background-size: cover;
@@ -21,9 +20,10 @@
 @media (width <= 980px) {
   .header-image-home {
     position: relative;
-    background-image: url(../../../public/hp-background-image-purple.png);
+    /* background-image: url(../../../public/hp-background-image-purple.png); */
+    background-image: url(../../../public/img_home_1920x1080.jpg);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 680px;
     background-size: cover;
     display: flex;
     flex-direction: column;

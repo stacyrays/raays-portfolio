@@ -9,8 +9,8 @@ const ApiConnections = () => {
     <>
       <div className="header-image-work" />
       <div className="content-container">
-        <div className="sub-header-text">API Case Studies</div>
-        <p>This page is showcasing my skills at connecting to APIs. The first one is for random dog pics and breed names, because I love dogs! The api is free and public: thedogapi.com. Option to randomize dog pics coming soon too.</p>
+        <div className="sub-header-text">api fun and connections</div>
+        <p>I love dogs! So for fun I wanted to include a little dog api connection example here, that is a free and public api: thedogapi.com. Coming soon: my own sketches api (i love art too!)</p>
         <div className="service-panel-section">
           <div className="sketch-item-container">
             <div className="sketch-item"><Grid /></div>

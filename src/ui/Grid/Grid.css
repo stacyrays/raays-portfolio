@@ -31,12 +31,12 @@
   color: #fff;
   transition: transform 0.2s;
   cursor: pointer;
-  max-width: 700px;
+  max-width: 600px;
 }
 
 .grid-image {
-  height: 500px;
-  width: 700px;
+  height: 450px;
+  width: 600px;
   overflow: hidden;
   object-position: center;
 }

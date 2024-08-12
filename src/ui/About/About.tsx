@@ -13,20 +13,23 @@ const About = () => {
     <>
       <div className="header-image-work" />
       <div className="content-container">
-        <div className="sub-header-text">About Stace Raays</div>
+        <div className="sub-header-text">about stace raays</div>
         <div className="work-item-container">
           <div className="work-item-left">
             <img src={process.env.PUBLIC_URL + "/me-ballena.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">
-                  Bio
+                  bio
               </div>
               <p>
-                Hi I'm Stace (Raays), I am a software engineer and ui designer in the San Francisco bay area, currently doing consulting development and design projects. My most recent full time position was with Scuba Analytics as a Frontend Software Engineer. I was with Scuba for 3 years. Unfortunately, there was a company wide layoff in May 2024, where half the company, including myself and many amazing engineers, were affected.
+                Hi I'm Stace (Raays), I'm a fullstack/frontend software engineer and designer in the San Francisco bay area, currently doing consultant projects and keeping an eye out for the next great full time role. 
               </p>
               <p>
-                My undergraduate degree is in computer science and design. In addition to that, a few years ago, I brushed up on the latest full stack technologies by completing a fullstack bootcamp for software engineering at Treehouse.
+                My most recent full time position was with Scuba Analytics as a Frontend Software Engineer. I was with Scuba for 3 years. Unfortunately they had a company wide layoff in May 2024, where half the company, including myself and many other amazing engineers, were affected.
+              </p>
+              <p>
+                I have years of software engineering and design experience, an undergrad computer science degree, a fullstack bootcamp completion certificate, and I'm currently finishing up an AI development bootcamp through Interview Kickstart. 
               </p>
               <p>
                 When I'm not coding or designing, I love to hike around the bay area, see the latest sci-fi movies, play guitar, and practice yoga. And I love Peanuts as you can see in the pic below :)
@@ -36,28 +39,29 @@ const About = () => {
         <div className="work-item-container">
           <div className="work-item-left">
             <div className="work-header-text">
-                Location
+                location
             </div>
             <ul>
-              <li>San Francisco, CA</li>
+              <li>Alameda, CA (right across the bay from San Francisco)</li>
             </ul>
             <div className="work-header-text">
-                Career
+                career
             </div>
             <ul>
-              <li>Software Engineer &amp; and UI Designer
+              <li>software engineer + ui designer
                 <ul>
                   <li>Software Engineer - 8 years experience</li>
-                  <li>UI Designer - 15 years experience</li>
+                  <li>UI Designer - 20 years experience</li>
                 </ul>
               </li>
             </ul>
             <div className="work-header-text">
-                Education
+                education
             </div>
             <ul>
               <li>
-                <strong><Link to="https://www.iupui.edu/" target="_blank">Indiana University &amp; Purdue University</Link></strong>
+                {/* <strong><Link to="https://www.iupui.edu/" target="_blank">Indiana University &amp; Purdue University</Link></strong> */}
+                <Link to="https://www.iupui.edu/" target="_blank" className={'link-styles'}>Indiana University &amp; Purdue University</Link>
                 <ul>
                   <li>Computer science &amp; web design </li>
                   <li>Bachelor degree</li>
@@ -65,10 +69,17 @@ const About = () => {
                 </ul>
               </li>
               <li>
-                <strong><Link to="https://teamtreehouse.com/techdegree/full-stack-javascript" target="_blank">Javascript Full Stack Bootcamp - Treehouse</Link></strong>
+                <Link to="https://www.interviewkickstart.com/courses/applied-genai" target="_blank" className={'link-styles'}>Interview Kickstart Level Up</Link>
+                <ul>
+                  <li>Applied Generative AI Development Botocamp</li>
+                  <li>Completing in 2024</li>
+                </ul>
+              </li>
+              <li>
+                <Link to="https://teamtreehouse.com/techdegree/full-stack-javascript" target="_blank" className={'link-styles'}>Javascript Full Stack Bootcamp - Treehouse</Link>
                   <ul>
                     <li>
-                      Completed and earned my <Link to="https://www.credential.net/5cfcf6de-9141-4e3f-b239-fdc9080b50dc#gs.c7dblx" target="_blank">Certificate</Link>
+                      Completed in 2020 and earned my <Link to="https://www.credential.net/5cfcf6de-9141-4e3f-b239-fdc9080b50dc#gs.c7dblx" target="_blank" className={'link-styles'}>Certificate</Link>
                     </li>
                     <li>Program focused on React, Node, Express, Sequelize, mysql, REST APIs, public API requests, Pug templating and Ruby on Rails</li>
                   </ul>

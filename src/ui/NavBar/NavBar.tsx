@@ -33,12 +33,12 @@ const Transition = React.forwardRef(function Transition(
 declare module '@mui/material/styles' {
   interface Palette {
     orange: Palette['primary'];
-    purple: Palette['secondary'];
+    blue: Palette['secondary'];
   }
 
   interface PaletteOptions {
     orange?: PaletteOptions['primary'];
-    purple?: PaletteOptions['secondary'];
+    blue?: PaletteOptions['secondary'];
   }
 }
 
@@ -46,7 +46,7 @@ declare module '@mui/material/styles' {
 declare module '@mui/material/Button' {
   interface ButtonPropsColorOverrides {
     orange: true;
-    purple: true;
+    blue: true;
   }
 }
 
@@ -58,19 +58,27 @@ export const theme = createTheme({
       dark: '#D03F01',
       contrastText: '#FFFFFF',
     },
-    purple: {
-      main: '#7305FE',
-      light: '#913BFF',
-      dark: '#4B0FC5',
+    blue: {
+      main: '#25B6CA',
+      light: '#40E7FE',
+      dark: '#1A91A2',
       contrastText: '#FFFFFF',
     },
   },
 });
 
 export const buttonStyles = {
-  color: '#fff', 
+  color: '#000', 
   textTransform: 'lowercase',
   borderRadius: '0px',
+  padding: '12px 20px',
+}
+
+export const textButtonStyles = {
+  color: '#25B6CA', 
+  textTransform: 'lowercase',
+  borderRadius: '0px',
+  padding: '12px 20px',
 }
 
 const NavBar = () => {
@@ -101,10 +109,10 @@ const NavBar = () => {
         <>
           <ThemeProvider theme={theme}>
             <Stack spacing={2} direction="row">
-              <Link to="/projects"><Button variant="text" sx={buttonStyles}>Projects</Button></Link>
-              <Link to="/about"><Button variant="text" sx={buttonStyles}>About</Button></Link>
-              <Link to="/api-connections"><Button variant="text" sx={buttonStyles}>api fun</Button></Link>
-              <Link to="/contact"><Button variant="text" sx={buttonStyles}>Contact</Button></Link>
+              <Link to="/projects"><Button variant="text" sx={textButtonStyles}>Projects</Button></Link>
+              <Link to="/about"><Button variant="text" sx={textButtonStyles}>About</Button></Link>
+              <Link to="/api-connections"><Button variant="text" sx={textButtonStyles}>api fun</Button></Link>
+              <Link to="/contact"><Button variant="text" sx={textButtonStyles}>Contact</Button></Link>
             </Stack>
           </ThemeProvider>
         </>
@@ -143,10 +151,10 @@ const NavBar = () => {
           <div style={{margin: '20px'}}>
             <ThemeProvider theme={theme}>
               <Stack spacing={2} direction="column">
-                <Link to="/projects"><Button color="purple" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Projects</Button></Link>
-                <Link to="/about"><Button color="purple" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>About</Button></Link>
-                <Link to="/team"><Button color="purple" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Meet the Team</Button></Link>
-                <Link to="/contact"><Button color="purple" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Contact Us</Button></Link>
+                <Link to="/projects"><Button color="blue" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Projects</Button></Link>
+                <Link to="/about"><Button color="blue" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>About</Button></Link>
+                <Link to="/api-connections"><Button color="blue" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>API Fun</Button></Link>
+                <Link to="/contact"><Button color="blue" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Contact</Button></Link>
               </Stack>
             </ThemeProvider>
           </div>
