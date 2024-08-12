@@ -14,7 +14,7 @@ const Contact = () => {
           </div>
           <div className="work-item-right">
             <div className="work-header-text">
-                Email Preferred
+                email preferred
             </div>
             <ul>
               <li>stacyrays@gmail.com</li>
