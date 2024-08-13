@@ -104,7 +104,7 @@ const NavBar = () => {
   }, []);
   
   const menu = () => {
-    if (width >= 820){
+    if (width >= 900){
       return (
         <>
           <ThemeProvider theme={theme}>
@@ -132,6 +132,14 @@ const NavBar = () => {
           open={open}
           onClose={handleClose}
           TransitionComponent={Transition}
+          sx={{ 
+            '& .MuiPaper-root': {
+              background: '#000'
+            },
+            '& .MuiBackdrop-root': {
+              backgroundColor: '#000'
+            }
+          }}
         >
           <AppBar sx={{ position: 'relative', backgroundColor: 'transparent', boxShadow: '0'}}>
             <Toolbar>
@@ -141,7 +149,7 @@ const NavBar = () => {
                 onClick={handleClose}
                 aria-label="close"
               >
-                <CloseIcon sx={{color: '#7305FE'}} />
+                <CloseIcon sx={{color: '#25B6CA'}} />
               </IconButton>
               {/* <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
                 Menu

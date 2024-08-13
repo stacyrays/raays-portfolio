@@ -25,9 +25,12 @@
 }
 
 .service-panel-item {
-  flex: calc((100% - 2rem) / 3);
-  box-sizing: border-box; 
-  margin: 40px 20px;
+  /* flex: calc((100% - 2rem) / 3);
+  box-sizing: border-box;  */
+  width: 20%;
+  min-width: 300px;
+  height: 230px;
+  margin: 20px;
   background-color: transparent;
   padding: 30px;
   color: #fff;
@@ -37,7 +40,7 @@
 
 .service-panel-item:hover {
   color: #fff;
-  background: rgba(0, 0, 0, .1);
+  background: rgba(0, 0, 0, .3);
   cursor: pointer;
   transform: scale(1.05);
 }

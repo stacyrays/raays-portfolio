@@ -21,9 +21,9 @@
   .header-image-home {
     position: relative;
     /* background-image: url(../../../public/hp-background-image-purple.png); */
-    background-image: url(../../../public/img_home_1920x1080.jpg);
+    background-image: url(../../../public/img_home_1200x1080.jpg);
     background-repeat: no-repeat;
-    height: 680px;
+    height: 720px;
     background-size: cover;
     display: flex;
     flex-direction: column;
