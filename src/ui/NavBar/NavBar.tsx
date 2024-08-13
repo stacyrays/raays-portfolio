@@ -159,10 +159,10 @@ const NavBar = () => {
           <div style={{margin: '20px'}}>
             <ThemeProvider theme={theme}>
               <Stack spacing={2} direction="column">
-                <Link to="/projects"><Button color="blue" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Projects</Button></Link>
-                <Link to="/about"><Button color="blue" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>About</Button></Link>
-                <Link to="/api-connections"><Button color="blue" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>API Fun</Button></Link>
-                <Link to="/contact"><Button color="blue" variant="text" sx={{borderRadius: '0px'}} onClick={handleClose}>Contact</Button></Link>
+                <Link to="/projects"><Button color="blue" variant="text" sx={{borderRadius: '0px', textTransform: 'lowercase'}} onClick={handleClose}>Projects</Button></Link>
+                <Link to="/about"><Button color="blue" variant="text" sx={{borderRadius: '0px', textTransform: 'lowercase'}} onClick={handleClose}>About</Button></Link>
+                <Link to="/api-connections"><Button color="blue" variant="text" sx={{borderRadius: '0px', textTransform: 'lowercase'}} onClick={handleClose}>API Fun</Button></Link>
+                <Link to="/contact"><Button color="blue" variant="text" sx={{borderRadius: '0px', textTransform: 'lowercase'}} onClick={handleClose}>Contact</Button></Link>
               </Stack>
             </ThemeProvider>
           </div>

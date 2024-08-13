@@ -8,18 +8,15 @@ const Contact = () => {
       <div className="header-image-work" />
       <div className="content-container">
       <div className="sub-header-text">contact raays</div>
-        <div className="work-item-container">
-          <div className="work-item-left">
-            <img src={process.env.PUBLIC_URL + '/me-ballena.png'} width="100%" height="auto"/>
-          </div>
-          <div className="work-item-right">
-            <div className="work-header-text">
+        <div className="contact-container">
+          <div className="contact-left">
+            <div className="contact-header-text">
                 email preferred
             </div>
             <ul>
               <li>stacyrays@gmail.com</li>
             </ul>
-            <div className="work-header-text">
+            <div className="contact-header-text">
                 Resume
             </div>
             <ul>
@@ -28,6 +25,7 @@ const Contact = () => {
               </li>
             </ul>
           </div>
+          <div className="contact-item-right"></div>
         </div>
         </div>
       <Services />

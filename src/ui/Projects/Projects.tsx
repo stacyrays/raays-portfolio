@@ -43,6 +43,52 @@ const Projects = () => {
         </div>
         <div className="work-item-container">
           <div className="work-item-left">
+          <img src={process.env.PUBLIC_URL + '/labzero-site.png'} width="100%" height="auto"/>
+          </div>
+          <div className="work-item-right">
+            <div className="work-header-text">Lab Zero Innovations</div>
+            <p>
+              At Lab Zero, I was a full time designer and prototyper. Lab Zero is a design and development agency located in San Francisco. We worked on design and development projects for many well-known bay area tech companies. Check out the Lab Zero site for more information.
+            </p>
+            <p>
+              <strong>Technologies:</strong> Figma, Sketch, Framer (React prototyping tool), javascript, html/css Adobe Suite
+            </p>
+            <ThemeProvider theme={theme}>
+              <Stack gap={2} alignItems="flex-start">
+                <Link to="https://labzero.com/" target="_blank">
+                  <Button variant="contained" color="blue" sx={buttonStyles}>
+                    GO TO LABZERO
+                  </Button>
+                </Link>
+              </Stack>
+          </ThemeProvider>
+          </div>
+        </div>
+        <div className="work-item-container">
+          <div className="work-item-left">
+            <img src={process.env.PUBLIC_URL + '/answers.png'} width="100%" height="auto"/>
+          </div>
+          <div className="work-item-right">
+            <div className="work-header-text">Answers.com</div>
+            <p>
+              I worked at Answers.com from 2009-2013 where I was ux/visual designer for the main site as well as other Answers owned sites. Also built high fidelity prototypes in HMTL, CSS, and javascript.
+            </p>
+            <p>
+              <strong>Technologies:</strong> Adobe Suite, Javascript, HTML, CSS, Framer X
+            </p>
+            <div>
+              <ThemeProvider theme={theme}>
+                  <Link to="https://www.answers.com/" target='_blank'>
+                    <Button variant="contained" color="blue" sx={{...buttonStyles, marginRight: '10px'}}>
+                      GO TO ANSWERS
+                    </Button>
+                  </Link>
+              </ThemeProvider>
+            </div>
+          </div>
+        </div>
+        <div className="work-item-container">
+          <div className="work-item-left">
             <img src="https://stacyrays.github.io/portfolio/images/projects/concert-software.png" width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
@@ -87,30 +133,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="sub-header-text">Design and Prototyping</div>
-        <div className="work-item-container">
-          <div className="work-item-left">
-          <img src={process.env.PUBLIC_URL + '/labzero-site.png'} width="100%" height="auto"/>
-          </div>
-          <div className="work-item-right">
-            <div className="work-header-text">Lab Zero Innovations</div>
-            <p>
-              At Lab Zero, I was a full time designer and prototyper. Lab Zero is a design and development agency located in San Francisco. We worked on design and development projects for many well-known bay area tech companies. Check out the Lab Zero site for more information.
-            </p>
-            <p>
-              <strong>Technologies:</strong> Figma, Sketch, Framer (React prototyping tool), javascript, html/css Adobe Suite
-            </p>
-            <ThemeProvider theme={theme}>
-              <Stack gap={2} alignItems="flex-start">
-                <Link to="https://labzero.com/" target="_blank">
-                  <Button variant="contained" color="blue" sx={buttonStyles}>
-                    GO TO LABZERO
-                  </Button>
-                </Link>
-              </Stack>
-          </ThemeProvider>
-          </div>
-        </div>
+        {/* <div className="sub-header-text">Design and Prototyping</div> */}
         <div className="work-item-container">
           <div className="work-item-left">
             <img src={process.env.PUBLIC_URL + '/angelic-clean.png'} width="100%" height="auto" />

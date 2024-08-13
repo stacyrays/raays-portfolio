@@ -1,5 +1,5 @@
 import api from "./api.js";
-import { ART_KEY, ART_ACCESS_TOKEN, DOG_KEY } from "../contants/data.js";
+import { ART_KEY, ART_ACCESS_TOKEN, DOG_KEY } from "../constants/data.js";
 
 const URLS = {
     // test url to remove later

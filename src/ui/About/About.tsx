@@ -16,7 +16,7 @@ const About = () => {
         <div className="sub-header-text">about stace raays</div>
         <div className="work-item-container">
           <div className="work-item-left">
-            <img src={process.env.PUBLIC_URL + "/me-ballena.png"} width="100%" height="auto"/>
+            <img src={process.env.PUBLIC_URL + "/me-beach.png"} width="100%" height="auto"/>
           </div>
           <div className="work-item-right">
             <div className="work-header-text">

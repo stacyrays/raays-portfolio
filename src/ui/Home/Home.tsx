@@ -16,15 +16,17 @@ const Home = () => {
         <div className="header-text">
           <h1>modern react coding and design methods</h1>
           <p>Hi, I’m Raays. I’m a frontend software engineer and designer ready to help out with your next project.</p>
-          <ThemeProvider theme={theme}>
-            <Stack gap={2} alignItems="flex-start">
-              <Link to="/projects">
-                <Button sx={buttonStyles} variant="contained" color="blue">
-                  go to projects
-                </Button>
-              </Link>
-            </Stack>
-          </ThemeProvider>
+          <div style={{marginTop: '24px'}}>
+            <ThemeProvider theme={theme}>
+              <Stack gap={2} alignItems="flex-start">
+                <Link to="/projects">
+                  <Button sx={buttonStyles} variant="contained" color="blue">
+                    go to projects
+                  </Button>
+                </Link>
+              </Stack>
+            </ThemeProvider>
+          </div>
         </div>
       </div>
       <Services />
