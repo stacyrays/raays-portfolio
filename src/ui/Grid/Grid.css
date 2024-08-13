@@ -35,10 +35,15 @@
 }
 
 .grid-image {
-  height: 450px;
-  width: 600px;
+  height: 350px;
+  width: 500px;
   overflow: hidden;
   object-position: center;
+  margin: auto;
+}
+
+.grid-image img {
+  background-position: 25% 25%;
 }
 
 .grid-panel-item:hover {

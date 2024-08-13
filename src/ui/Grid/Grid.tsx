@@ -23,7 +23,7 @@ const Grid = () => {
   const [dogList, setDogList] = useState<Array<DogBaseItem>>([]);
   const [dogInfoList, setDogInfoList] = useState<Array<DogItem>>([]);
 
-  const staticIds = ['bhF8zbrRq', 'B1Edfl9NX', 'tUDJdHuO7', 'BkMQll94X', 'keAvlc5K', 'rkVlblcEQ', 'S1KMGg5Vm', 'x-LJYrq37', 'SyXN-e9NX', 'lq5gBjy4s', '_eGtrKB20']
+  const staticIds = ['rkVlblcEQ', 'BkMQll94X', 'keAvlc5K', 'tUDJdHuO7', 'bhF8zbrRq', 'S1KMGg5Vm', 'lq5gBjy4s']
 
   useEffect(() => {
     (async () => {

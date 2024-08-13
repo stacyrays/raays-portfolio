@@ -32,7 +32,7 @@ const GridItem = (props: Props) => {
           onMouseEnter={() => setServiceHovered(true)}
           onMouseLeave={() => setServiceHovered(false)}
         > 
-          <div className='grid-image'><img src={dogPic} height={height} width={width} /></div>
+          <div className='grid-image'><img src={dogPic} height={height} width={width} style={{backgroundPosition: '25% 25%'}}/></div>
           <div id={id} className="service-text">{breedCapitalized()}</div>
           <div id={id} className="grid-body-text">(click to see full image)</div>
         </div>

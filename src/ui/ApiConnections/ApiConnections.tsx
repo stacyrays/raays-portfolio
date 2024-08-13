@@ -10,7 +10,7 @@ const ApiConnections = () => {
       <div className="header-image-work" />
       <div className="content-container">
         <div className="sub-header-text">api fun and connections</div>
-        <p>I love dogs! So for fun I wanted to include a little dog api connection example here, that is a free and public api: thedogapi.com. Coming soon: my own sketches api (i love art too!)</p>
+        <p>I have a huge love and admiration for dogs. So for fun I wanted to include a little dog api connection example here, that is a free and public api: thedogapi.com. Coming soon: my own art api</p>
         <div className="service-panel-section">
           <div className="sketch-item-container">
             <div className="sketch-item"><Grid /></div>
