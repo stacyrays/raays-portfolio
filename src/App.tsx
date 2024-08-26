@@ -16,7 +16,7 @@ const App = () => {
         <Link to="/">
           <div className="app-logo">
             <div className="raays">raays</div>
-            <div className="description">software engineering and ui design</div>
+            <div className="description">software engineering + ui design</div>
           </div>
         </Link>
         <NavBar />
