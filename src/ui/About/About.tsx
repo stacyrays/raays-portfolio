@@ -13,7 +13,7 @@ const About = () => {
     <>
       <div className="header-image-work" />
       <div className="content-container">
-        <div className="sub-header-text">about stace raays</div>
+        <div className="sub-header-text">about stace</div>
         <div className="work-item-container">
           <div className="work-item-left">
             <img src={process.env.PUBLIC_URL + "/me-beach.png"} width="100%" height="auto"/>
@@ -23,7 +23,7 @@ const About = () => {
                   bio
               </div>
               <p>
-                Hi I'm Stace (Raays), I'm a fullstack/frontend software engineer and designer in the San Francisco bay area, currently doing consultant projects and keeping an eye out for the next great full time role. 
+                Hi I'm Stace, I'm a senior frontend software engineer and designer in the San Francisco bay area, currently doing consultant projects and keeping an eye out for the next great full time role. 
               </p>
               <p>
                 My most recent full time position was with Scuba Analytics as a Frontend Software Engineer. I was with Scuba for 3 years. Unfortunately they had a company wide layoff in May 2024, where half the company, including myself and many other amazing engineers, were affected.

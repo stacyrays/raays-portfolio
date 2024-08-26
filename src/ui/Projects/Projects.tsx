@@ -20,10 +20,10 @@ const Projects = () => {
           <div className="work-item-right">
             <div className="work-header-text">Scuba Analytics</div>
             <p>
-              Scuba is a data analytics deep dive took, making it so it's much easier to make complicated queries much faster and formatted in a human friendly way.
+            I was a frontend software engineer at Scuba for around 3 years. Scuba is a data analytics deep dive tool, where users can create more complicated, complex queries much faster, while in a very ui friendly environment.
             </p>
             <p>
-              <strong>Technologies:</strong> React, Typescript, Redux, Material UI, Python
+              <strong>Technologies:</strong> React, Typescript, Redux, Jest, Python, SQL, Webpack
             </p>
             <div>
               <ThemeProvider theme={theme}>
@@ -32,11 +32,11 @@ const Projects = () => {
                       GO TO SCUBA
                     </Button>
                   </Link>
-                  <Link to="/projects/scuba">
+                  {/* <Link to="/projects/scuba">
                     <Button variant="contained" color="blue" sx={buttonStyles}>
                       SEE CODE EXAMPLES
                     </Button>
-                  </Link>
+                  </Link> */}
               </ThemeProvider>
             </div>
           </div>
@@ -100,13 +100,13 @@ const Projects = () => {
               <strong>Technologies:</strong> React, Typescript, apollo, graphql, mongodb, javascript, html/scss
             </p>
             <div>
-              <ThemeProvider theme={theme}>
+              {/* <ThemeProvider theme={theme}>
                   <Link to="/projects/streaming-app">
                     <Button variant="contained" color="blue" sx={buttonStyles}>
                       SEE CODE EXAMPLES
                     </Button>
                   </Link>
-              </ThemeProvider>
+              </ThemeProvider> */}
             </div>
           </div>
         </div>
