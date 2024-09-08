@@ -13,9 +13,9 @@ const Home = () => {
     <>
       <div className="header-image-home">
         <div className="laptop"><LaptopIcon /></div>
-        <div className="header-text">
+        <div className="header-text"> 
           <h1>activate modern solutions</h1>
-          <p>Hi, I’m Stace, founder of Raays engineering and design, and we are enthusiastic to help out with your next app or website project!</p>
+          <p>Hi I'm Stace, I'm passionate frontend software engineer and enthusiastic product builder, exhibiting great success leveraging strategic solutions, while delivering high quality code and system architecture.</p>
           <div style={{marginTop: '24px'}}>
             <ThemeProvider theme={theme}>
               <Stack gap={2} alignItems="flex-start">
