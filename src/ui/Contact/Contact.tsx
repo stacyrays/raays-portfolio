@@ -14,7 +14,7 @@ const Contact = () => {
                 email preferred
             </div>
             <ul>
-              <li>stacyrays@gmail.com</li>
+              <li>stacyrays77@gmail.com</li>
             </ul>
             <div className="contact-header-text">
                 Resume
