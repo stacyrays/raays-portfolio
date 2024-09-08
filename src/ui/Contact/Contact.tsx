@@ -1,4 +1,5 @@
 import Services from '../Services/Services';
+import { Link } from 'react-router-dom';
 import './Contact.scss';
 import '../../App.scss';
 
@@ -11,17 +12,18 @@ const Contact = () => {
         <div className="contact-container">
           <div className="contact-left">
             <div className="contact-header-text">
-                email preferred
+                email
             </div>
             <ul>
               <li>stacyrays77@gmail.com</li>
             </ul>
             <div className="contact-header-text">
-                Resume
+                linkedin
             </div>
             <ul>
               <li>
-                Download Resume (coming soon)
+                Visit my&nbsp;
+                <Link to="https://www.linkedin.com/in/stace-suits-7b687917/" target="_blank" className={'link-styles'}>LinkedIn Profile</Link>
               </li>
             </ul>
           </div>
