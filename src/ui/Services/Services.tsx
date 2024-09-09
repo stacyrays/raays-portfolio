@@ -29,6 +29,7 @@ const Services = () => {
         <div className="service-panel-container">
           {serviceItems.map((s, index) => <ServiceItem serviceType={s.serviceType} buttonText={s.buttonText} serviceBodyText={s.serviceBodyText} title={s.title} key={index} />)}
         </div>
+        <span className="attribution">2024 Raays Engineering. Image by kjpargeter</span>
       </div>
     </>
   )

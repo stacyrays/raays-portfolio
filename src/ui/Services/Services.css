@@ -5,6 +5,10 @@
   margin-top: 30px;
 }
 
+.service-panel-section {
+  background-color: #1e1e1e;
+}
+
 .service-panel-container {
   display: flex;
   flex-wrap: wrap;
@@ -80,4 +84,9 @@
   font-size: 16px;
   margin-bottom: 16px;
   font-weight: 400;
+}
+
+.attribution {
+  font-size: 9px;
+  color:#6A6A6A;
 }

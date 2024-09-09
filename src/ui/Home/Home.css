@@ -1,7 +1,10 @@
 .header-image-home {
   position: relative;
   /* background-image: url(../../../public/img_home_1920x1080.jpg); */
-  background-image: url(../../../public/hp-green-bg-full.png);
+  /* background-image: url(../../../public/hp-green-bg-full.png); */
+  /* background-image: url(../../../public/glowing-molecular-structure.jpg); */
+  /* background-image: url(../../../public/3d-render-low-poly.jpg); */
+  background-image: url(../../../public/3d-render-abstract-cyber-particles-with-shallow-depth-field.jpg);
   background-repeat: no-repeat;
   height: 800px;
   background-size: cover;
@@ -21,7 +24,8 @@
 @media (width <= 980px) {
   .header-image-home {
     position: relative;
-    background-image: url(../../../public/hp-green-bg-full.png);
+    /* background-image: url(../../../public/hp-green-bg-full.png); */
+    background-image: url(../../../public/3d-render-abstract-cyber-particles-with-shallow-depth-field.jpg);
     background-repeat: no-repeat;
     height: 720px;
     background-size: cover;
