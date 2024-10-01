@@ -1,6 +1,6 @@
 .header-image-work {
   position: relative;
-  background-image: url(../../../public/blue-waves-short.png);
+  background-image: url(../../../public/glowing-molecular-structure.jpg);
   background-repeat: no-repeat;
   height: 800px;
   background-size: cover;
@@ -63,6 +63,9 @@
 }
 
 @media (width <= 768px) {
+  .header-image-work {
+    background-image: url('../../../public/glowing-molecule-short.jpg');
+  }
   .work-item-container {
     display: flex;
     flex-direction: column;
@@ -77,6 +80,9 @@
 }
 
 @media (width <= 1080px) {
+  .header-image-work {
+    background-image: url('../../../public/glowing-molecule-short.jpg');
+  }
   .work-item-container {
     display: flex;
     flex-direction: column;

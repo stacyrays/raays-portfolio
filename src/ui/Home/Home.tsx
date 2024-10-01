@@ -15,7 +15,7 @@ const Home = () => {
         <div className="laptop"><LaptopIcon /></div>
         <div className="header-text"> 
           <h1>activate modern solutions</h1>
-          <p>Hi I'm Stace, a passionate Front End Software Engineer and enthusiastic product builder, ready to help you create your next innovative project!</p>
+          <p>Hi I'm Stace Rays, a passionate Front End Software Engineer and enthusiastic product builder, ready to help you create your next innovative project!</p>
           <div style={{marginTop: '24px'}}>
             <ThemeProvider theme={theme}>
               <Stack gap={2} alignItems="flex-start">

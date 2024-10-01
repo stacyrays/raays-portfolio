@@ -4,7 +4,7 @@
   /* background-image: url(../../../public/hp-green-bg-full.png); */
   /* background-image: url(../../../public/glowing-molecular-structure.jpg); */
   /* background-image: url(../../../public/3d-render-low-poly.jpg); */
-  background-image: url(../../../public/blue-waves.png);
+  background-image: url(../../../public/glowing-molecular-structure.jpg);
   background-repeat: no-repeat;
   height: 800px;
   background-size: cover;
@@ -25,7 +25,7 @@
   .header-image-home {
     position: relative;
     /* background-image: url(../../../public/hp-green-bg-full.png); */
-    background-image: url(../../../public/blue-waves.png);
+    background-image: url('../../../public/glowing-molecular-structure.jpg');
     background-repeat: no-repeat;
     height: 720px;
     background-size: cover;
