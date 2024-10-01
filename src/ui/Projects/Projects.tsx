@@ -20,7 +20,7 @@ const Projects = () => {
           <div className="work-item-right">
             <div className="work-header-text">Scuba Analytics</div>
             <p>
-            I was a frontend software engineer at Scuba for around 3 years. Scuba is a data analytics deep dive tool, where users can create more complicated, complex queries much faster, while in a very ui friendly environment.
+            I was a full time frontend software engineer at Scuba for 3 years up until May 2024. Scuba is a data analytics deep dive tool, where users can create very complex queries much faster, while in a UI friendly environment. Unfortunately they had a company wide layoff in May 2024, where half the company, including myself and many other amazing engineers, were affected.
             </p>
             <p>
               <strong>Technologies:</strong> React, Typescript, Redux, Jest, Python, SQL, Webpack
@@ -29,7 +29,35 @@ const Projects = () => {
               <ThemeProvider theme={theme}>
                   <Link to="https://www.scuba.io/" target='_blank'>
                     <Button variant="contained" color="blue" sx={{...buttonStyles, marginRight: '10px'}}>
-                      GO TO SCUBA
+                      Visit Scuba
+                    </Button>
+                  </Link>
+                  {/* <Link to="/projects/scuba">
+                    <Button variant="contained" color="blue" sx={buttonStyles}>
+                      SEE CODE EXAMPLES
+                    </Button>
+                  </Link> */}
+              </ThemeProvider>
+            </div>
+          </div>
+        </div>
+        <div className="work-item-container">
+          <div className="work-item-left">
+            <img src={process.env.PUBLIC_URL + '/cc.png'} width="100%" height="auto"/>
+          </div>
+          <div className="work-item-right">
+            <div className="work-header-text">Chronicle Creations</div>
+            <p>
+            Currently I am working as Principal Software Engineer and UX Designer at Chronicle where I am Frontend Lead and designer on their stealth Ai focused project called Dreambook. We are hard at work on this project and will be launching the Dreambook MVP app in the months to come.
+            </p>
+            <p>
+              <strong>Technologies:</strong> React Native, Typescript, Expo, Redux, Python, Figma
+            </p>
+            <div>
+              <ThemeProvider theme={theme}>
+                  <Link to="https://www.chroniclecreations.co/" target='_blank'>
+                    <Button variant="contained" color="blue" sx={{...buttonStyles, marginRight: '10px'}}>
+                      Visit Chronicle
                     </Button>
                   </Link>
                   {/* <Link to="/projects/scuba">
@@ -48,7 +76,7 @@ const Projects = () => {
           <div className="work-item-right">
             <div className="work-header-text">Lab Zero Innovations</div>
             <p>
-              At Lab Zero, I was a full time designer and prototyper. Lab Zero is a design and development agency located in San Francisco. We worked on design and development projects for many well-known bay area tech companies. Check out the Lab Zero site for more information.
+              I was a full time UX designer at LabZero, a design and development agency located in San Francisco from 2015-2020 We worked on design and development projects for many well-known bay area tech companies. Check out the Lab Zero site for more information. 
             </p>
             <p>
               <strong>Technologies:</strong> Figma, Sketch, Framer (React prototyping tool), javascript, html/css Adobe Suite
@@ -57,7 +85,7 @@ const Projects = () => {
               <Stack gap={2} alignItems="flex-start">
                 <Link to="https://labzero.com/" target="_blank">
                   <Button variant="contained" color="blue" sx={buttonStyles}>
-                    GO TO LABZERO
+                    Visit Labzero
                   </Button>
                 </Link>
               </Stack>
@@ -80,7 +108,30 @@ const Projects = () => {
               <ThemeProvider theme={theme}>
                   <Link to="https://www.answers.com/" target='_blank'>
                     <Button variant="contained" color="blue" sx={{...buttonStyles, marginRight: '10px'}}>
-                      GO TO ANSWERS
+                      Visit Answers
+                    </Button>
+                  </Link>
+              </ThemeProvider>
+            </div>
+          </div>
+        </div>
+        <div className="work-item-container">
+          <div className="work-item-left">
+            <img src={process.env.PUBLIC_URL + '/River_desktop_hp.jpg'} width="100%" height="auto" />
+          </div>
+          <div className="work-item-right">
+            <div className="work-header-text">River NLP Therapy Site</div>
+            <p>
+             River NLP is a current consultant design and development project that I am working on and should be live soon. I am the lead designer and developer on this site. Building it in Next.js and Typescript.
+            </p>
+            <p>
+              <strong>Technologies:</strong> Next.js, Typescript, javascript, html/css, Figma
+            </p>
+            <div>
+              <ThemeProvider theme={theme}>
+                  <Link to="/">
+                    <Button variant="contained" color="blue" sx={buttonStyles}>
+                      COMING SOON
                     </Button>
                   </Link>
               </ThemeProvider>
@@ -110,36 +161,13 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="work-item-container">
-          <div className="work-item-left">
-            <img src={process.env.PUBLIC_URL + '/life-leap.png'} width="100%" height="auto" />
-          </div>
-          <div className="work-item-right">
-            <div className="work-header-text">Life Leap Therapy Site</div>
-            <p>
-             Life Leap is a contract development (and design) project I am about to finish. The final design and some code samples will be added here soon.
-            </p>
-            <p>
-              <strong>Technologies:</strong> React, Typescript, Next.js, javascript, html/css, Figma
-            </p>
-            <div>
-              <ThemeProvider theme={theme}>
-                  <Link to="/">
-                    <Button variant="contained" color="blue" sx={buttonStyles}>
-                      COMING SOON
-                    </Button>
-                  </Link>
-              </ThemeProvider>
-            </div>
-          </div>
-        </div>
         {/* <div className="sub-header-text">Design and Prototyping</div> */}
         <div className="work-item-container">
           <div className="work-item-left">
             <img src={process.env.PUBLIC_URL + '/angelic-clean.png'} width="100%" height="auto" />
           </div>
           <div className="work-item-right">
-            <div className="work-header-text">Angelic Cleaning Site</div>
+            <div className="work-header-text">Angelic Clean</div>
             <p>
              Angelic Cleaning was a small business contract design project. This one was mainly visual and ux updates to their exisiting logo and site. I updated their logo, colors, fonts and images. And provided guidance for their content and organization of their site.
             </p>
@@ -150,7 +178,7 @@ const Projects = () => {
               <ThemeProvider theme={theme}>
                   <Link to="https://www.angelicclean.com/">
                     <Button variant="contained" color="blue" sx={buttonStyles}>
-                      go to site
+                      Visit Angelic
                     </Button>
                   </Link>
               </ThemeProvider>
