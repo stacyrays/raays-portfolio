@@ -1,5 +1,4 @@
 import api from "./api.js";
-import { DOG_KEY } from "../constants/data.js";
 
 // fetch random dog api
 export const fetchRandomDogs = async () => {
@@ -9,7 +8,7 @@ export const fetchRandomDogs = async () => {
 			{
 				headers: {
 					'x-rapidapi-host': 'api.thedogapi.com',
-					'x-rapidapi-key': DOG_KEY
+					'x-rapidapi-key': process.env.REACT_APP_DOG_API_KEY
 				},
 				// params: {category: 'all', count: '10'}
 			}
@@ -28,7 +27,7 @@ export const fetchDog = async (id) => {
 			{
 				headers: {
 					'x-rapidapi-host': 'api.thedogapi.com',
-					'x-rapidapi-key': DOG_KEY
+					'x-rapidapi-key': process.env.REACT_APP_DOG_API_KEY
 				},
 			}
 		).then(result => result.data);

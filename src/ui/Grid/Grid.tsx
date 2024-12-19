@@ -9,7 +9,7 @@ type DogBaseItem = {
   url: string,
   width: number,
   height: number,
-};
+}[];
 
 type DogItem = {
   id: string,
@@ -17,11 +17,11 @@ type DogItem = {
   breeds: [{height: object, id: number, life_span: string, name: string, reference_image_id: string, weight: object}],
   width: number,
   height: number,
-};
+}[];
 
 const Grid = () => {  
-  const [dogList, setDogList] = useState<Array<DogBaseItem>>([]);
-  const [dogInfoList, setDogInfoList] = useState<Array<DogItem>>([]);
+  const [dogList, setDogList] = useState<DogBaseItem>([]);
+  const [dogInfoList, setDogInfoList] = useState<DogItem>([]);
 
   const staticIds = ['rkVlblcEQ', 'BkMQll94X', 'keAvlc5K', 'tUDJdHuO7', 'bhF8zbrRq', 'S1KMGg5Vm', 'lq5gBjy4s']
 
